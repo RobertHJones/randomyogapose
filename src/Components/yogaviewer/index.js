@@ -25,7 +25,7 @@ function YogaViewer({ id }) {
     pose && (
       <div className="pose-viewer">
         <p>Sanskrit - {pose.sanskrit_name}</p>
-        <p>English - {pose.english_name}</p>
+        <p>English - {pose.english_name} pose</p>
         <img id="poseimage" src={pose.img_url} alt="yoga pose" />
       </div>
     )
