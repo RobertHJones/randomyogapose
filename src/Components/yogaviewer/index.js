@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 import "./index.css";
 
 function YogaViewer({ id }) {
-  // TODO: send http request to `https://pokeapi.co/api/v2/pokemon/${id}` and display the data!
-  // HINT: you will need useState and useEffect!
-
   const [pose, setPose] = useState("");
 
   async function fetchPose() {
